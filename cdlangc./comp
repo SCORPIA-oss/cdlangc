@@ -1,0 +1,7 @@
+#!/usr/bin/bash
+
+javac token.java
+java -cvf token.jar token.class
+
+
+java -cp ./token.jar token
